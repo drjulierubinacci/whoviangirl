@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: 'Playfair Display', serif;
+}
+
 #navigation {
     background-color: black;
 }
@@ -34,6 +38,14 @@ img {
     margin: 0 auto;
 }
 
+
+h3, h2 {
+    font-weight: 700;
+}
+
+
+
 .footer {
     padding-left: 2px;
 }
+
