@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/stylerevised.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
 
@@ -29,28 +29,34 @@
 
 <!--BODY-->
 <body>
-
-<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md">
-    <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="row">
-    <div class="navbar-header justify-content-start">
-      <a class="navbar-brand" hreff="#"></a>
-       <img class="logo img-fluid w-25" src="images/Doctor_Who_Logo_without_BBC.jpg" alt="Docto Who Logo">
-    </div>
-    </div><!--END Navbar Header-->
-    <div class="navbar-nav">
-      <a class="nav-item nav-link text-white" href="#">Home</a>
-      <a class="nav-item nav-link text-white" href="#">Articles</a>
-      <a class="nav-item nav-link text-white" href="#">Reviews</a>
-      <a class="nav-item nav-link text-white" href="#">Cast</a>
-    </div><!-- Navbar-Nav -->
-    <form class="form-inline">
+<section id="navigation">
+    <nav class="navbar navbar-inverse navbar-full navbar-toggleable-md mr-0" >
+        <a class="navbar-brand" href="#cover">
+            <img id="logo" class="img-fluid img-responsive w-25" src="images/Doctor_Who_Logo_without_BBC.jpg" alt="Doctor Who Logo">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-nav-menu" aria-controls="main-nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav-menu">
+            <ul id="links" class="nav navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#navigation">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#articles">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#reviews">News</a>
+                </li>
+            </ul>
+        <form class="form-inline">
         <input class="form-control" placeholder="Search">
         <button class="btn btn-primary">Alons-y</button>
     </form><!--END Form-->
-    </div><!--END Container-->
-</nav><!--END Navigation-->
+            </div>
+        </nav>
+</section>
+
 
 
     <p> Test Test Test</p>
