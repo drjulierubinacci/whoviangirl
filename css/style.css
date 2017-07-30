@@ -35,3 +35,8 @@
 #main-nav-menu {
     justify-content: flex-end;
 }
+
+/*CAROUSEL INNER*/
+.carousel-inner {
+    width: 100%;
+}
