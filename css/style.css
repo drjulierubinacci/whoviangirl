@@ -1,0 +1,97 @@
+/*OVERALL*/
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+/*NAVIGATION*/
+.navbar {
+    backgound-color: black;
+}
+
+#navigation {
+    font-size: 17px;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    color: white;
+
+}
+
+.navbar-brand {
+    margin: -25px;
+}
+
+.navbar-nav {
+
+}
+
+.logo {
+    margin-top: 0px;
+    max-width: 10%;
+}
+
+#logo {
+    margin-top: 0px;
+    margin-left: -30px;
+    max-width: 18%;
+}
+
+.links {
+    text-align: right;
+    color: white;
+}
+
+.navbar-nav >li >a {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: right;
+}
+
+.form-control {
+    margin-top: 8px;
+}
+
+#main-nav-menu {
+    justify-content: flex-end;
+}
+
+/*CAROUSEL INNER*/
+#myCarousel {
+    margin-top: 0%;
+}
+
+.carousel-inner {
+    max-height: 700px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#carousel-images {
+    max-height: 700px;
+}
+
+/*ARTICLES*/
+#articles {
+
+}
+.articles {
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+hr {
+    color: black;
+    size: 10px;
+}
+
+/*SIDEBAR*/
+.sidebar {
+    margin-top: 40px;
+}
