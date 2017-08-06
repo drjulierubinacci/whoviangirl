@@ -6,10 +6,6 @@
      box-sizing: border-box;
 }
 
-* {
-    font-family: 'Playfair Display', serif;
-}
-
 /*NAVIGATION*/
 .navbar {
     backgound-color: black;
@@ -25,10 +21,6 @@
 
 .navbar-brand {
     margin: -25px;
-}
-
-.navbar-nav {
-
 }
 
 .logo {
@@ -48,7 +40,7 @@
 }
 
 .navbar-nav >li >a {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: white;
     text-align: right;
 }
@@ -77,21 +69,46 @@
 }
 
 /*ARTICLES*/
-#articles {
-
+#theTabs {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
 }
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .articles {
+    font-family: 'Playfair Display', serif;
     margin-top: 30px;
     margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-top: 8px solid ;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 8px solid ;
 
 }
 
-hr {
-    color: black;
-    size: 10px;
+.article-text {
+    font-size: 20px;
 }
 
-/*SIDEBAR*/
-.sidebar {
-    margin-top: 40px;
+/*FANDOM*/
+#fandom {
+    padding-bottom: 20px;
+    border-bottom: 8px solid ;
+}
+
+/*FOOTER*/
+.red {
+    color: red;
+}
+
+#footer {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
 }
