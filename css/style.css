@@ -97,6 +97,11 @@ h2 {
     font-size: 20px;
 }
 
+.image-companions {
+    max-width: 50%;
+}
+
+
 /*FANDOM*/
 #fandom {
     padding-bottom: 20px;
