@@ -95,8 +95,12 @@ h2 {
 
 .article-text {
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
 }
 
+.photo-caption {
+    text-align: center;
+}
 .image-companions {
     max-width: 50%;
 }
